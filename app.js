@@ -20,6 +20,7 @@ function fecthData(){
     fetch(url).then(response=>{
         return response.json()
     }).then(data=>{
+        
         const {name,images,artists,type} = data.album 
         const getnameArtist = artists.map(name=>{
             return `<p> ${name.name} </p>`
@@ -53,4 +54,3 @@ function fecthData(){
 }
 
 fecthData();
-

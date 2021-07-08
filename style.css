@@ -30,6 +30,7 @@ body{
 .btn{
     font-size: 0.8em;
     height: 3em;
+    cursor: pointer;
     padding: 10px;
     border-radius: 3px;
     border: none;
@@ -67,4 +68,6 @@ textarea{
     width: 15em;
     border: 1px solid rgb(46, 46, 233); 
     border-radius: 2px;
+    text-align: center;
+    font-family: 1.1em;
 }
