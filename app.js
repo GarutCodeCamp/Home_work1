@@ -21,12 +21,13 @@ function fecthData(){
         return response.json()
     }).then(data=>{
         const {name,images,artists,type} = data.album 
-        const getnameArtist = artists.map(name=>{
-            return `<p> ${name.name} </p>`
+        const getnameArtist = artists.map(artis=>{
+            return artis.name
         })
 
-        const [,image2,] = images
+        const [image1,...image2] = images
         console.log(image2);
+       
         const album_text = document.querySelector(".album-text");
         const img = document.getElementById("album-image");
         const h3 = document.createElement("h3");
@@ -41,7 +42,7 @@ function fecthData(){
         button.innerHTML = "DownLoad Now"
 
 
-        img.setAttribute("src",image2.url);
+        img.setAttribute("src",image1.url);
         album_text.appendChild(h3)
         album_text.appendChild(p)
         album_text.appendChild(h4)
