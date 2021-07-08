@@ -1,46 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
 <root>
 <album>
-<album_type>album</album_type>
-<artists>
-<element>
-<external_urls>
-<spotify>https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d</spotify>
-</external_urls>
-<href>https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d</href>
-<id>1dfeR4HaWDbWqFHLkxsg1d</id>
-<name>Queen</name>
-<type>artist</type>
-<uri>spotify:artist:1dfeR4HaWDbWqFHLkxsg1d</uri>
-</element>
-</artists>
-<external_urls>
-<spotify>https://open.spotify.com/album/6i6folBtxKV28WX3msQ4FE</spotify>
-</external_urls>
-<href>https://api.spotify.com/v1/albums/6i6folBtxKV28WX3msQ4FE</href>
-<id>6i6folBtxKV28WX3msQ4FE</id>
-<images>
-<element>
-<height>640</height>
-<url>https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b</url>
-<width>640</width>
-</element>
-<element>
-<height>300</height>
-<url>https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b</url>
-<width>300</width>
-</element>
-<element>
-<height>64</height>
-<url>https://i.scdn.co/image/ab67616d00004851e8b066f70c206551210d902b</url>
-<width>64</width>
-</element>
-</images>
-<name>Bohemian Rhapsody (The Original Soundtrack)</name>
-<release_date>2018-10-19</release_date>
-<release_date_precision>day</release_date_precision>
-<total_tracks>22</total_tracks>
-<type>album</type>
-<uri>spotify:album:6i6folBtxKV28WX3msQ4FE</uri>
+    <album_type>album</album_type>
+        <artists>
+            <element>
+                <external_urls>
+                    <spotify>https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d</spotify>
+                </external_urls>
+                <href>https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d</href>
+                <id>1dfeR4HaWDbWqFHLkxsg1d</id>
+                <name>Queen</name>
+                <type>artist</type>
+                <uri>spotify:artist:1dfeR4HaWDbWqFHLkxsg1d</uri>
+            </element>
+        </artists>
+    <external_urls>
+        <spotify>https://open.spotify.com/album/6i6folBtxKV28WX3msQ4FE</spotify>
+    </external_urls>
+    <href>https://api.spotify.com/v1/albums/6i6folBtxKV28WX3msQ4FE</href>
+    <id>6i6folBtxKV28WX3msQ4FE</id>
+    <images>
+        <element>
+            <height>640</height>
+            <url>https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b</url>
+            <width>640</width>
+        </element>
+        <element>
+            <height>300</height>
+            <url>https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b</url>
+            <width>300</width>
+        </element>
+        <element>
+            <height>64</height>
+            <url>https://i.scdn.co/image/ab67616d00004851e8b066f70c206551210d902b</url>
+            <width>64</width>
+        </element>
+     </images>
+    <name>Bohemian Rhapsody (The Original Soundtrack)</name>
+    <release_date>2018-10-19</release_date>
+    <release_date_precision>day</release_date_precision>
+    <total_tracks>22</total_tracks>
+    <type>album</type>
+    <uri>spotify:album:6i6folBtxKV28WX3msQ4FE</uri>
 </album>
 <artists>
 <element>
