@@ -14,10 +14,10 @@ function send(){
 
 
 
-
 function fecthData(){
     const url = "https://gist.githubusercontent.com/aryapradipta9/e6492383477803b233916e01f36d5465/raw/66942c739d66d3774303f84071696aa865a07077/single-sample.json";
-    fetch(url).then(response=>{
+
+    fetch("data.xml").then(response=>{
         return response.json()
     }).then(data=>{
         
@@ -27,7 +27,7 @@ function fecthData(){
         })
 
         const [,image2,] = images
-        console.log(image2);
+        console.log(images);
         const album_text = document.querySelector(".album-text");
         const img = document.getElementById("album-image");
         const h3 = document.createElement("h3");
@@ -54,3 +54,9 @@ function fecthData(){
 }
 
 fecthData();
+
+
+
+
+
+
