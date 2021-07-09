@@ -77,7 +77,9 @@ function GetAPI(){
             <h4>  ${type} </h4>
             <input type="button" value="Play" class="btn btn-primary">
         `
-    }).catch()
+    }).catch((err)=>{
+        alert(err)
+    })
 }
 
 
