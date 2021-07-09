@@ -1,0 +1,20 @@
+//desctructuring all Data\\
+        const {
+            album,
+            artists,
+            disc_number,
+            duration_ms,
+            explicit,
+            external_ids,
+            external_urls,
+            href,
+            id,
+            is_local,
+            is_playlable,
+            name,
+            popularity,
+            preview_url,
+            track_number,
+            type,
+            uri
+        }= data;
